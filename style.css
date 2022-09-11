@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: dimgray;
+}
+
+/*  header section flux   */
+.header_sec {
+    display: flex;
+    margin-left: 10%;
+}
+
+
+.left_text {
+    margin-top: 10%;
+}
+
+/* header photo */
+.right_pic {
+    width: 50%;
+    text-align: center;
+}
+
+.right_pic img {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.stay_focused {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10%;
+    border-left: 5px solid #FF512F;
+    border-radius: 5px;
+    border-image-slice: 1;
+    padding-left: 17px;
+}
+
+/* mission text highlighter */
+.mission_color{
+    color: #FF512F;
+}
+
+/* button  */
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#FF512F, #DD2476);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 7px;
+    
+}
+
+/* margin top & bottom where p tag with button. */
+.p_details {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/* mission section header text */
+.mission_pad {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* mission section three box */
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.box_pic {
+    width: 50%;
+}
+
+.box_pad {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.mission_box {
+    background-color:#395B64;
+    height: 460px;
+    width: 28%;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.vision_box {
+    background-color: #EE4540;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    height: 460px;
+    width: 28%;
+}
+
+.goal_box {
+    background-color:#346751;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    height: 460px;
+    width: 28%;
+}
+
+/* third, forth & fifth = feather section */
+.feather_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10% auto;
+}
+
+.feather_sec_text {
+    margin-top: 5%;
+    width: 50%;
+}
+
+.feather_sec_head {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.feather_sec_pic {
+    width: 50%;
+}
+
+.feather_sec_pic img {
+    width: 85%;
+}
+
+
+/* footer */
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #0F1119;
+    width: 100%;
+    height: 132px;
+    padding-top: 4%;
+}
+
+/* copyright treadmark */
+.copyright{
+    font-size: xx-small;
+}
